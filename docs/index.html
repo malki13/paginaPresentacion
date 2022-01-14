@@ -27,15 +27,18 @@
                 <h2 class="sobre-nosotros">Presentacion</h2>
                 <h3 class="slogan">Programando una vida...</h3>
                 <p class="parrafo">PUBG</p>
-                <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dicta rem hic totam necessitatibus
-                    tempora animi error perferendis. Vero corrupti porro quia! Ad saepe alias, officiis voluptatem sed, odio
-                    dolores neque dolorem placeat nam quia numquam soluta ipsam nostrum consequuntur, a magnam non. Tenetur
+                <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dicta rem hic
+                    totam necessitatibus
+                    tempora animi error perferendis. Vero corrupti porro quia! Ad saepe alias, officiis voluptatem sed,
+                    odio
+                    dolores neque dolorem placeat nam quia numquam soluta ipsam nostrum consequuntur, a magnam non.
+                    Tenetur
                     repudiandae distinctio inventore voluptate fugit laborum?</p>
                 <a href="#" class="boton">Suscribete</a>
                 <div class="malki">
                     <i class='bx bxl-facebook'></i>
-                    <i class='bx bxl-instagram' ></i>
-                    <i class='bx bxl-twitter' ></i>
+                    <i class='bx bxl-instagram'></i>
+                    <i class='bx bxl-twitter'></i>
                 </div>
             </div>
 
@@ -71,12 +74,23 @@
             <h2 class="titulo-footer">Contactanos</h2>
             <h3 class="subtitulo-footer">Lo apreciariamos mucho</h3>
             <div class="footer">
-                <form action="">
-                    <input type="text" name="" id="" placeholder="Nombre">
-                    <input type="email" name="" id="" placeholder="Email">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Ingrese su mensaje..."></textarea>
-                    <input type="submit" value="Enviar">
+                <!-- modify this form HTML and place wherever you want your form -->
+                
+                <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mwkyvvok" method="post">
+                    <fieldset id="fs-frm-inputs">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                        <label for="email-address">Email Address</label>
+                        <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                        <label for="message">Asunto</label>
+                        <input name="subject" placeholder="Need help with order" />
+                        <label for="message">Message</label>
+                        <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+                        <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                    </fieldset>
+                    <input type="submit" value="Submit">
                 </form>
+
             </div>
         </div>
     </footer>

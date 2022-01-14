@@ -37,8 +37,16 @@ header .subtitulo {
     font-weight: 300;
     margin-bottom: 32px;
 }
+
+
 .malki{
-    background-color: aqua;
+    background-color: rgb(59, 115, 199);
+    font-size: 42px;
+    background-position: center;
+    width: 15%;
+    margin-left: 45%;
+    border-radius: 4px;
+    
 }
 
 header .boton {
@@ -271,7 +279,7 @@ form {
     flex-wrap: wrap;
     margin: auto;
 }
-
+/*
 input[type="text"],
 input[type="email"] {
     display: inline-block;
@@ -313,7 +321,7 @@ input[type="submit"] {
     color: #fff;
     background: rgba(37, 37, 33, .7);
     width: 96px;
-}
+}*/
 
 /* Responsive */
 
